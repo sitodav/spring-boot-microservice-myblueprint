@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings
+	xmlns="http://dozermapper.github.io/schema/bean-mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping http://dozermapper.github.io/schema/bean-mapping.xsd">
+
+
+
+	<mapping map-id="fondosanitarioSHALLOW">
+		<class-a>it.sitodskij.myblueprint.data.model.TbFondi</class-a>
+		<class-b>it.sitodskij.myblueprint.to.FondoSanitarioTO</class-b>
+
+
+		<field>
+			<a>ID_Fondo</a>
+			<b>id</b>
+		</field>
+
+
+		<field>
+			<a>anno_Adesione</a>
+			<b>annoAdesione</b>
+		</field>
+
+
+		<field>
+			<a>CAP_Sede_Legale</a>
+			<b>capSedeLegale</b>
+		</field>
+
+
+		<field>
+			<a>codice_Fiscale_Fondo</a>
+			<b>codiceFiscaleFondo</b>
+		</field>
+
+
+		<field>
+			<a>comune_Sede_Legale</a>
+			<b>comuneSedeLegale</b>
+		</field>
+
+
+		<field>
+			<a>denominazione_Fondo</a>
+			<b>denominazioneFondo</b>
+		</field>
+
+
+		<field>
+			<a>indirizzo_Sede_Legale</a>
+			<b>indirizzoSedeLegale</b>
+		</field>
+
+		<field>
+			<a>tipo_Fondo</a>
+			<b>tipoFondo</b>
+		</field>
+
+		<field map-id="regioniSHALLOW">
+			<a>tbRegioni</a>
+			<b>regione</b>
+		</field>
+
+	</mapping>
+
+
+	<mapping map-id="fondosanitarioDEEP">
+		<class-a>it.sitodskij.myblueprint.data.model.TbFondi</class-a>
+		<class-b>it.sitodskij.myblueprint.to.FondoSanitarioTO</class-b>
+
+
+		<field>
+			<a>ID_Fondo</a>
+			<b>id</b>
+		</field>
+
+
+		<field>
+			<a>anno_Adesione</a>
+			<b>annoAdesione</b>
+		</field>
+
+
+		<field>
+			<a>CAP_Sede_Legale</a>
+			<b>capSedeLegale</b>
+		</field>
+
+
+		<field>
+			<a>codice_Fiscale_Fondo</a>
+			<b>codiceFiscaleFondo</b>
+		</field>
+
+
+		<field>
+			<a>comune_Sede_Legale</a>
+			<b>comuneSedeLegale</b>
+		</field>
+
+
+		<field>
+			<a>denominazione_Fondo</a>
+			<b>denominazioneFondo</b>
+		</field>
+
+
+		<field>
+			<a>indirizzo_Sede_Legale</a>
+			<b>indirizzoSedeLegale</b>
+		</field>
+
+		<field>
+			<a>tipo_Fondo</a>
+			<b>tipoFondo</b>
+		</field>
+
+		<field map-id="prestazioniSHALLOW">
+			<a>tbPrestazioniFondos</a>
+			<b>prestazioni</b>
+		</field>
+
+		<field map-id="regioniSHALLOW">
+			<a>tbRegioni</a>
+			<b>regione</b>
+		</field>
+
+	</mapping>
+
+</mappings>

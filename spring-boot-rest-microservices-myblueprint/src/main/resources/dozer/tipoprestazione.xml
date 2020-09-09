@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping http://dozermapper.github.io/schema/bean-mapping.xsd">
+
+	 
+	
+	<mapping map-id="tipoprestazioneSHALLOW">
+		<class-a>it.sitodskij.myblueprint.data.model.TbTipoPrestazione</class-a>
+		<class-b>it.sitodskij.myblueprint.to.TipoPrestazioneTO</class-b>
+		
+		
+		<field>
+			<a>ID_Tipo_Prestazione</a>
+			<b>id</b> 
+		</field>
+ 		
+ 		
+ 		<field>
+			<a>nome_Tipo_Prestazione</a>
+			<b>nomeTipoPrestazione</b> 
+		</field>
+		
+		<field map-id="livelloassistenzialeSHALLOW">
+			<a>tbLivelloAssistenziale</a>
+			<b>livelloAssistenziale</b>
+		</field>
+		
+	</mapping>
+	
+	<mapping map-id="tipoprestazioneDEEP">
+		<class-a>it.sitodskij.myblueprint.data.model.TbTipoPrestazione</class-a>
+		<class-b>it.sitodskij.myblueprint.to.TipoPrestazioneTO</class-b>
+		
+		
+		<field>
+			<a>ID_Tipo_Prestazione</a>
+			<b>id</b> 
+		</field>
+ 		
+ 		
+ 		<field>
+			<a>nome_Tipo_Prestazione</a>
+			<b>nomeTipoPrestazione</b> 
+		</field>
+		
+		<field map-id="livelloassistenzialeSHALLOW">
+			<a>tbLivelloAssistenziale</a>
+			<b>livelloAssistenziale</b>
+		</field>
+		
+		<field map-id="prestazioniSHALLOW">
+			<a>tbPrestazioniFondos</a>
+			<b>prestazioni</b>
+		</field>
+		
+	</mapping>
+	
+</mappings>

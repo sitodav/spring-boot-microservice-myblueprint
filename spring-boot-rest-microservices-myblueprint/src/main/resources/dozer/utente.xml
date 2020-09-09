@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping http://dozermapper.github.io/schema/bean-mapping.xsd">
+
+	 
+	
+	<mapping map-id="utente">
+		<class-a>it.sitodskij.myblueprint.data.model.TbUtenti</class-a>
+		<class-b>it.sitodskij.myblueprint.to.UtenteTO</class-b>
+		
+		<field>
+			<a>idUtente</a>
+			<b>id</b>
+		</field>	  
+		
+		<field map-id="ruolo">
+			<a>tbRuoli</a>
+			<b>ruolo</b>
+		</field>
+		 
+	</mapping>
+ 
+ 
+</mappings>

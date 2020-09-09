@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings
+	xmlns="http://dozermapper.github.io/schema/bean-mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping http://dozermapper.github.io/schema/bean-mapping.xsd">
+
+
+
+	<mapping map-id="prestazioniSHALLOW">
+		<class-a>it.sitodskij.myblueprint.data.model.TbPrestazioniFondo</class-a>
+		<class-b>it.sitodskij.myblueprint.to.PrestazioneTO</class-b>
+
+
+		<field>
+			<a>ID_Prestazione_Fondo</a>
+			<b>id</b>
+		</field>
+
+
+		<field>
+			<a>descrizione_Prestazione</a>
+			<b>descrizionePrestazione</b>
+		</field>
+
+		<field>
+			<a>num_Prest_Rimb_Intero</a>
+			<b>numPrestRimbIntero</b>
+		</field>
+
+		<field>
+			<a>num_Prest_Rimb_Ticket</a>
+			<b>numPrestRimbTicket</b>
+		</field>
+
+		<field>
+			<a>prestazioni_Annue</a>
+			<b>prestazioniAnnue</b>
+		</field>
+
+		<field>
+			<a>quantita_Totali_Erogate</a>
+			<b>quantitaTotaliErogate</b>
+		</field>
+
+		<field>
+			<a>val_Prest_Rimb_Intero</a>
+			<b>valPrestRimbIntero</b>
+		</field>
+
+		<field>
+			<a>val_Prest_Rimb_Ticket</a>
+			<b>valPrestRimbTicket</b>
+		</field>
+
+		<field>
+			<a>valore_Complessivo</a>
+			<b>valoreComplessivo</b>
+		</field>
+
+		<field map-id="naturaprestazione">
+			<a>tbNaturaPrestazione</a>
+			<b>naturaPrestazione</b>
+		</field>
+		
+		<field>
+			<a>percorso_Assistenziale</a>
+			<b>percorsoAssistenziale</b>
+		</field>
+		
+		<field>
+			<a>descrizione_Percorso</a>
+			<b>descrizionePercorso</b>
+		</field>
+
+	</mapping>
+
+
+
+
+
+	<mapping map-id="prestazioniDEEP">
+		<class-a>it.sitodskij.myblueprint.data.model.TbPrestazioniFondo</class-a>
+		<class-b>it.sitodskij.myblueprint.to.PrestazioneTO</class-b>
+
+
+		<field>
+			<a>ID_Prestazione_Fondo</a>
+			<b>id</b>
+		</field>
+
+
+		<field>
+			<a>descrizione_Prestazione</a>
+			<b>descrizionePrestazione</b>
+		</field>
+
+		<field>
+			<a>num_Prest_Rimb_Intero</a>
+			<b>numPrestRimbIntero</b>
+		</field>
+
+		<field>
+			<a>num_Prest_Rimb_Ticket</a>
+			<b>numPrestRimbTicket</b>
+		</field>
+
+		<field>
+			<a>prestazioni_Annue</a>
+			<b>prestazioniAnnue</b>
+		</field>
+
+		<field>
+			<a>quantita_Totali_Erogate</a>
+			<b>quantitaTotaliErogate</b>
+		</field>
+
+		<field>
+			<a>val_Prest_Rimb_Intero</a>
+			<b>valPrestRimbIntero</b>
+		</field>
+
+		<field>
+			<a>val_Prest_Rimb_Ticket</a>
+			<b>valPrestRimbTicket</b>
+		</field>
+
+		<field>
+			<a>valore_Complessivo</a>
+			<b>valoreComplessivo</b>
+		</field>
+
+		<field>
+			<a>percorso_Assistenziale</a>
+			<b>percorsoAssistenziale</b>
+		</field>
+		
+		<field>
+			<a>descrizione_Percorso</a>
+			<b>descrizionePercorso</b>
+		</field>
+
+		<field map-id="naturaprestazione">
+			<a>tbNaturaPrestazione</a>
+			<b>naturaPrestazione</b>
+		</field>
+
+		<field map-id="fondosanitarioSHALLOW">
+			<a>tbFondi</a>
+			<b>fondo</b>
+		</field>
+
+		<field map-id="tipoprestazioneSHALLOW">
+			<a>tbTipoPrestazione</a>
+			<b>tipoPrestazione</b>
+		</field>
+
+	</mapping>
+
+</mappings>

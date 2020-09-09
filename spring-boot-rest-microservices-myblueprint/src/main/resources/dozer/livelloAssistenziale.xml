@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping http://dozermapper.github.io/schema/bean-mapping.xsd">
+
+	 
+	
+	<mapping map-id="livelloassistenzialeSHALLOW">
+		<class-a>it.sitodskij.myblueprint.data.model.TbLivelloAssistenziale</class-a>
+		<class-b>it.sitodskij.myblueprint.to.LivelloAssistenzialeTO</class-b>
+		
+		
+		<field>
+			<a>ID_Livello_Assistenziale</a>
+			<b>id</b> 
+		</field>
+		
+		<field>
+			<a>nome_LivelloAssistenziale</a>
+			<b>nomeLivelloAssistenziale</b> 
+		</field>
+		
+		<field map-id="macroambitoSHALLOW">
+			<a>tbMacroambito</a>
+			<b>macroambito</b>
+		</field>
+ 
+		
+	</mapping>
+	
+	
+	<mapping map-id="livelloassistenzialeDEEP">
+		<class-a>it.sitodskij.myblueprint.data.model.TbLivelloAssistenziale</class-a>
+		<class-b>it.sitodskij.myblueprint.to.LivelloAssistenzialeTO</class-b>
+		
+		
+		<field>
+			<a>ID_Livello_Assistenziale</a>
+			<b>id</b> 
+		</field>
+		
+		<field>
+			<a>nome_LivelloAssistenziale</a>
+			<b>nomeLivelloAssistenziale</b> 
+		</field>
+		
+		<field map-id="macroambitoSHALLOW">
+			<a>tbMacroambito</a>
+			<b>macroambito</b>
+		</field>
+		
+		<field map-id="tipoprestazioneSHALLOW">
+			<a>tbTipoPrestaziones</a>
+			<b>tipiPrestazioni</b> 
+		</field>
+ 
+		
+	</mapping>
+	
+</mappings>

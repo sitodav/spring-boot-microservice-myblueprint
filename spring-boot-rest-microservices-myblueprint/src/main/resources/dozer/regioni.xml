@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings
+	xmlns="http://dozermapper.github.io/schema/bean-mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping http://dozermapper.github.io/schema/bean-mapping.xsd">
+
+
+
+	<mapping map-id="regioniSHALLOW">
+		<class-a>it.sitodskij.myblueprint.data.model.TbRegioni</class-a>
+		<class-b>it.sitodskij.myblueprint.to.RegioneTO</class-b>
+
+
+		<field>
+			<a>ID_Regione</a>
+			<b>id</b>
+		</field>
+
+
+		<field>
+			<a>nome_Regione</a>
+			<b>nomeRegione</b>
+		</field>
+ 
+	</mapping>
+
+ 	
+	
+	<mapping map-id="regioniDEEP">
+		<class-a>it.sitodskij.myblueprint.data.model.TbRegioni</class-a>
+		<class-b>it.sitodskij.myblueprint.to.RegioneTO</class-b>
+
+
+		<field>
+			<a>ID_Regione</a>
+			<b>id</b>
+		</field>
+
+
+		<field>
+			<a>nome_Regione</a>
+			<b>nomeRegione</b>
+		</field>
+		
+		
+		<field map-id="fondosanitarioSHALLOW">
+			<a>tbFondis</a>
+			<b>fondi</b>
+		</field>
+ 
+	</mapping> 
+
+</mappings>

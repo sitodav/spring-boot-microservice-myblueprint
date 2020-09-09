@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping http://dozermapper.github.io/schema/bean-mapping.xsd">
+
+	 
+	
+	<mapping map-id="funzionalita">
+		<class-a>it.sitodskij.myblueprint.data.model.TbFunzionalita</class-a>
+		<class-b>it.sitodskij.myblueprint.to.FunzionalitaTO</class-b>
+		
+		
+		<field>
+			<a>ID_Funzionalita</a>
+			<b>id</b> 
+		</field>
+		
+		<field>
+			<a>default_</a>
+			<b>predefinita</b> 
+		</field>
+		
+		<field>
+			<a>descrizione_Funzionalita</a>
+			<b>descrizione</b> 
+		</field>
+		
+		<field>
+			<a>nome_Funzionalita</a>
+			<b>nomeFunzionalita</b> 
+		</field>
+		
+		<field>
+			<a>tipo_Funzionalita</a>
+			<b>tipo</b> 
+		</field>
+		
+		
+	</mapping>
+	
+</mappings>
