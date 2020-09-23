@@ -137,9 +137,10 @@ public class UtentiAPI {
 			userDetails = utentiService.loadUserByUsername(userToFromClient.getUsername()); //questo lo uso per validazione pw
 			utenteTO = utentiService.getUtenteByUsername(userToFromClient.getUsername()); //questo per l'anagrafica da rimandare al client
 			
-			boolean abilitato =  StringUtils.equalsIgnoreCase(utenteTO.getDisabilitato(), "0");
+			
 			if(null != utenteTO)
 			{
+				boolean abilitato =  StringUtils.equalsIgnoreCase(utenteTO.getDisabilitato(), "0");
 				if(abilitato && BCrypt.checkpw(userToFromClient.getPassword(), userDetails.getPassword()))
 				{
 					validAccess = true;

@@ -341,11 +341,11 @@ public class ApachePOIHelper {
 		}
 		else if(Integer.class.getName().equals(outputType.getName()))
 		{
-			return (strValue != null ? Integer.parseInt(strValue) : doubleValue.intValue());
+			return (strValue != null ? Integer.parseInt(strValue) : doubleValue != null ? doubleValue.intValue() : 0);
 		}
 		else if(Double.class.getName().equals(outputType.getName()))
 		{
-			return (strValue != null ? Double.parseDouble(strValue) : doubleValue);
+			return (strValue != null ? Double.parseDouble(strValue) : doubleValue != null ? doubleValue.doubleValue() : 0.0);
 		}
 		else if(Boolean.class.getName().equals(outputType.getName()))
 		{
