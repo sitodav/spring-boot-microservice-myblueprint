@@ -17,11 +17,9 @@ import it.sitodskij.myblueprint.data.model.TbMacroambito;
 import it.sitodskij.myblueprint.decorators.DoNothingDecorator;
 import it.sitodskij.myblueprint.to.CountableWrapper;
 import it.sitodskij.myblueprint.to.LivelloAssistenzialeTO;
-import it.sitodskij.myblueprint.to.MacroambitoAssistenzialeTO;
 import it.sitodskij.myblueprint.to.filtriricerca.RicercaConAnno;
 import it.sitodskij.myblueprint.util.PaginationHelper;
-
- 
+import it.sitodskij.myblueprint.util.mocker.Mocked; 
 
 @Service
 @Transactional(rollbackFor = Exception.class)
@@ -65,6 +63,7 @@ public class LivelloAssistenzialeServiceImpl implements LivelloAssistenzialeServ
 	}
 
 
+	@Mocked(mockerClass = LivelloAssistenzialeServiceMock.class, mockingValue = "12L")
 	@Override
 	public LivelloAssistenzialeTO searchById(Long id) throws Exception {
 		try
